@@ -1,3 +1,12 @@
+/*
+	App 控制整个app
+		Page切换（Pjax）
+			Page内置加载模块，加载自身内容 -> 每个页面使用各自的js
+			Cache缓存控制 html5 application cache控制
+		手势事件实现动画切换
+			Fliper
+*/
+
 var events = require('./modules/widget/events');
 var tplParser = require('./modules/plugins/tplParser');
 
